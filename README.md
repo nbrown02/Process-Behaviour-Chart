@@ -12,7 +12,7 @@ Separate that which is ‘signal’ from that which is ‘noise' in your data. V
 Use this at potentially every other retrospective to understand where there has been variation in your process/ways of working and potentially do some root-cause analysis as to why that may be.
 
 ## Steps to load the information
-- Download the template
+- [Download the template](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/raw/main/Process%20Behaviour%20Chart.pbit)
 - Open the template in Power BI Desktop
 - Enter your details
 
