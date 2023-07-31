@@ -27,10 +27,12 @@ Don't confuse the team name with the project name, a common mistake. If the URL 
 * It should then look something like this:
 
 Azure DevOps Services:
+
 ![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/31a986e1-3ec9-446f-8e6b-1608e7482151)
 
 
 Azure DevOps Server:
+
 ![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/4e47decf-d1e7-4456-9e2b-6a8817308a25)
 
 
