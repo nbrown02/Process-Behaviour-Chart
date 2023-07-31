@@ -27,11 +27,12 @@ Don't confuse the team name with the project name, a common mistake. If the URL 
 * It should then look something like this:
 
 Azure DevOps Services:
-![alt text](https://raw.githubusercontent.com/nbrown02/FlowViz/main/Screenshots/AzDO%20Services%20Login.png)
+![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/31a986e1-3ec9-446f-8e6b-1608e7482151)
 
 
 Azure DevOps Server:
-![alt text](https://raw.githubusercontent.com/nbrown02/FlowViz/main/Screenshots/AzDO%20Server%20Login.png)
+![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/4e47decf-d1e7-4456-9e2b-6a8817308a25)
+
 
 * Hit 'Load' 
 * If you are prompted for a login, you can choose:
