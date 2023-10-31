@@ -1,12 +1,12 @@
 # Process Behaviour Chart (PBC) for Azure DevOps
 
 ## What is this report? 
-This report provides a simple way to analyse the predictability and variability of a team. For the flow metrics of Throughput, Work In Progress and Cycle Time, a Process Behaviour Chart (PBC) is visualized.
+This report provides a simple way to analyse the predictability and variability of a team. For the flow metrics of Throughput, Cycle Time, Work In Progress (WIP) and Work Item Age, a Process Behaviour Chart (PBC) is visualized.
 
-The PBC (traditionally known as a Statistical Process Control - SPC chart) shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points highlight a signal that represents exceptional variation.
+The PBC shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points highlight a signal that represents exceptional variation.
 
 ## Why would you use it? 
-Separate that which is ‘signal’ from that which is ‘noise' in your data. Variability in terms of Throughput, Cycle Time and/or Work In Progress (WIP) is inevitable. Understanding when you have too much variability and when an intervention is needed is what is important. Use these charts to find out where you may need to focus. 
+Separate that which is ‘signal’ from that which is ‘noise' in your data. Variability in terms of Throughput, Cycle Time Work In Progress (WIP) and/or Work Item Age is inevitable. Understanding when you have too much variability and when an intervention is needed is what is important. Use these charts to find out where you may need to focus. 
 
 ## When would you use it?
 Use this at potentially every other retrospective to understand where there has been variation in your process/ways of working and potentially do some root-cause analysis as to why that may be.
@@ -45,7 +45,7 @@ Azure DevOps Server:
 
 * Once signed in hit 'Load' and wait for your charts to populate!
 
-![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/c281cdac-e719-4022-b267-0c4f3a50d569)
+![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/8c636405-f7d3-4b8f-bbdb-d9ff6da1e4fa)
 
 ## Using the report
 There are some key things to look for when visually analysing the charts, things to look for are:
