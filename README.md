@@ -6,7 +6,7 @@ This report provides a simple way to analyse the predictability and variability 
 The PBC shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points highlight a signal that represents exceptional variation.
 
 ## Why would you use it? 
-Separate that which is ‘signal’ from that which is ‘noise' in your data. Variability in terms of Throughput, Cycle Time Work In Progress (WIP) and/or Work Item Age is inevitable. Understanding when you have too much variability and when an intervention is needed is what is important. Use these charts to find out where you may need to focus. 
+Separate that which is ‘signal’ from that which is ‘noise' in your data. Variability in terms of Throughput, Cycle Time, Work In Progress (WIP) and/or Work Item Age is inevitable. Understanding when you have too much variability and when an intervention is needed is what is important. Use these charts to find out where you may need to focus. Please note, for flow metrics where the LNPL is not visible, this is because the value is less than 0 which will not be possible for certain metrics (e.g. it is impossible to have a negative Throughput or negative Cycle Time).
 
 ## When would you use it?
 Use this at potentially every other retrospective to understand where there has been variation in your process/ways of working and potentially do some root-cause analysis as to why that may be.
