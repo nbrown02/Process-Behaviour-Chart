@@ -1,4 +1,4 @@
-# Process Behaviour Chart (PBC) for Azure DevOps
+# Process Behaviour Chart (PBC) for Azure DevOps (ADO)
 
 ## What is this report? 
 This report provides a simple way to analyse the predictability and variability of a team. For the flow metrics of Throughput, Cycle Time, Work In Progress (WIP) and Work Item Age, a Process Behaviour Chart (PBC) is visualized.
