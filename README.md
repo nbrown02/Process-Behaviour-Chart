@@ -49,7 +49,7 @@ Azure DevOps Server:
 
 ## Using the report
 There are some key things to look for when visually analysing the charts, things to look for are:
-
+- NOTE: Any items with a cycle time of 0 are automatically excluded
 - Any points outside the limits - A single point outside the calculated natural process limits indicates the presence of an exceptional cause that has a dominant effect. Unless it is something seasonal this is the key point to focus on (it’s a ‘signal’).
 ![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/9e622b1d-c3c1-4dda-99d9-2d2f59da0814)
 - Shifts in the process - this can be when points are consistently positioned above/below the average line but then shift. This could allude to something that has changed with regards to the way of working.
@@ -57,5 +57,5 @@ There are some key things to look for when visually analysing the charts, things
 - The run of ‘eight’ - Eight or more successive values all on the same side of the average may indicate the presence of an exceptional cause that has a weak but sustained effect.
 ![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/14197c28-fc8b-49eb-83b9-2acf13ec9bdb)
 - Runs near the limits - Three out of four successive values all within the upper 25% of the region between the limits, or all within the lower 25% of the region between the limits, may indicate the presence of an exceptional cause that has a moderate but sustained effect.
-  
+
 [Source - Deming Alliance](https://demingalliance.org/resources/articles/process-behaviour-charts-an-introduction)
