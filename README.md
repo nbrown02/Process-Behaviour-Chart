@@ -1,9 +1,9 @@
 # Process Behaviour Chart (PBC) for Azure DevOps (ADO)
 
 ## What is this report? 
-This report provides a simple way to analyse the predictability and variability of a team. For the flow metrics of Throughput, Cycle Time, Work In Progress (WIP) and Work Item Age, a Process Behaviour Chart (PBC) is visualized.
+This report provides a simple way to analyse the predictability and variation in flow metrics for a team. For the flow metrics of Throughput, Cycle Time, Work In Progress (WIP) and Work Item Age, a Process Behaviour Chart (PBC) is visualized.
 
-The PBC shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points highlight a signal that represents exceptional variation.
+The PBC shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points highlight a signal that represents exceptional variation. The report contains two pages, page one contains the simplified 'X Chart' and page two contains the 'XmR Chart'. There are two date slicers, one for choosing the baseline range (for calculating UNPL/LNPL), the second for what data you what to compare these values against.
 
 ## Why would you use it? 
 Separate that which is ‘signal’ from that which is ‘noise' in your data. Variability in terms of Throughput, Cycle Time, Work In Progress (WIP) and/or Work Item Age is inevitable. Understanding when you have too much variability and when an intervention is needed is what is important. Use these charts to find out where you may need to focus. Please note, for flow metrics where the LNPL is not visible, this is because the value is less than 0 which will not be possible for certain metrics (e.g. it is impossible to have a negative Throughput or negative Cycle Time).
@@ -45,7 +45,10 @@ Azure DevOps Server:
 
 * Once signed in hit 'Load' and wait for your charts to populate!
 
-![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/8c636405-f7d3-4b8f-bbdb-d9ff6da1e4fa)
+<img width="875" alt="Screenshot 2024-01-01 at 15 59 22" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/3ce69b1c-5127-44df-8e79-aeede923dafe">
+
+<img width="872" alt="Screenshot 2024-01-01 at 15 59 37" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/fbd5116b-e6d5-4a97-84c8-1b71dad7e8eb">
+
 
 ## Using the report
 There are some key things to look for when visually analysing the charts, things to look for are:
