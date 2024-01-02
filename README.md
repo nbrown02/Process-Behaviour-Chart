@@ -44,11 +44,10 @@ Azure DevOps Server:
   ![alt text](https://docs.microsoft.com/en-us/azure/devops/report/powerbi/media/authentication-7.png?view=azure-devops)
 
 * Once signed in hit 'Load' and wait for your charts to populate!
+  
+<img width="872" alt="Screenshot 2024-01-02 at 14 18 24" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/6018c022-9adc-4434-809e-8f9639f0c1e6">
 
-<img width="875" alt="Screenshot 2024-01-01 at 15 59 22" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/3ce69b1c-5127-44df-8e79-aeede923dafe">
-
-<img width="872" alt="Screenshot 2024-01-01 at 15 59 37" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/fbd5116b-e6d5-4a97-84c8-1b71dad7e8eb">
-
+<img width="871" alt="Screenshot 2024-01-02 at 14 18 42" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/bdb3b7fe-9779-4167-91df-95a1102a0ff3">
 
 ## Using the report
 There are some key things to look for when visually analysing the charts, things to look for are:
