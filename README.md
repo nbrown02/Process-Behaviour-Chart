@@ -1,9 +1,10 @@
 # Process Behaviour Chart (PBC) for Azure DevOps (ADO)
 
 ## What is this report? 
-This report provides a simple way to analyse the predictability and variation in flow metrics for a team. For the flow metrics of Throughput, Cycle Time, Work In Progress (WIP) and Work Item Age, a Process Behaviour Chart (PBC) is visualized.
+This report provides a simple way to analyse the predictability and variation in flow metrics for a team. 
+For the flow metrics of Throughput, Cycle Time, Work In Progress (WIP) and Work Item Age, a Process Behaviour Chart (PBC) is visualized.
 
-The PBC shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points highlight a signal that represents exceptional variation. The report contains two pages, page one contains the simplified 'X Chart' and page two contains the 'XmR Chart'. There are two date slicers, one for choosing the baseline range (for calculating UNPL/LNPL), the second for what data you what to compare these values against.
+The PBC shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points (shown as a red dot) highlight a signal that represents exceptional variation. The report contains two pages, page one contains the simplified 'X Chart' and page two contains the 'XmR Chart'. There are two date slicers, one for choosing the baseline range (for calculating UNPL/LNPL/URL), the second for what data you what to compare these values against.
 
 ## Why would you use it? 
 Separate that which is ‘signal’ from that which is ‘noise' in your data. Variability in terms of Throughput, Cycle Time, Work In Progress (WIP) and/or Work Item Age is inevitable. Understanding when you have too much variability and when an intervention is needed is what is important. Use these charts to find out where you may need to focus. Please note, for flow metrics where the LNPL is not visible, this is because the value is less than 0 which will not be possible for certain metrics (e.g. it is impossible to have a negative Throughput or negative Cycle Time).
