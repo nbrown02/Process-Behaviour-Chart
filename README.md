@@ -45,20 +45,33 @@ Azure DevOps Server:
   ![alt text](https://docs.microsoft.com/en-us/azure/devops/report/powerbi/media/authentication-7.png?view=azure-devops)
 
 * Once signed in hit 'Load' and wait for your charts to populate!
-  
-<img width="872" alt="Screenshot 2024-01-02 at 14 18 24" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/6018c022-9adc-4434-809e-8f9639f0c1e6">
 
-<img width="871" alt="Screenshot 2024-01-02 at 14 18 42" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/bdb3b7fe-9779-4167-91df-95a1102a0ff3">
+![PBCGIF](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/3d21d502-b1c2-464a-8ce7-15a3156c8889)
+
+![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/4bf72597-c0c3-4a7e-816c-3e27dabee6d5)
+
 
 ## Using the report
 There are some key things to look for when visually analysing the charts, things to look for are:
 - NOTE: Any items with a cycle time of 0 are automatically excluded
-- Any points outside the limits - A single point outside the calculated natural process limits indicates the presence of an exceptional cause that has a dominant effect. Unless it is something seasonal this is the key point to focus on (it’s a ‘signal’). These will be highlighted as a red dot
-<img width="767" alt="Screenshot 2024-01-02 at 13 53 25" src="https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/0574e972-363d-4645-aad4-46155a78bba6">
+- Large Changes (any points outside the Upper Natural Process Limit (UNPL) | Lower Natural Process Limit (LNPL)) - Any data point outside of the natural process limits (UNPL/LNPL). Unless it is something seasonal this is the key point to focus on (it’s a ‘signal’). These will be highlighted as a red dot.
+  
+  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/e1647e06-14c8-474d-9dc5-7e6fbcf44e63)
 
-- Shifts in the process - this can be when points are consistently positioned above/below the average line but then shift. This could allude to something that has changed with regards to the way of working.
-- Cyclical/seasonal patterns - this can be when there are particular days or weeks when a shift in values occurs. It may not always mean that this is a ‘signal’.
-- The run of ‘eight’ - Eight or more successive values all on the same side of the average may indicate the presence of an exceptional cause that has a weak but sustained effect.
-- Runs near the limits - Three out of four successive values all within the upper 25% of the region between the limits, or all within the lower 25% of the region between the limits, may indicate the presence of an exceptional cause that has a moderate but sustained effect.
+- Moderate changes - Any data point with a run of 3 items with 2 out of any 3 consecutive points within the process limits are above the 2-sigma line. These will be highlighted as an orange dot.
+  
+  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/11c41cd5-a645-4a3b-a2de-8e5db9142ec4)
 
-[Source - Deming Alliance](https://demingalliance.org/resources/articles/process-behaviour-charts-an-introduction)
+- Moderate shifts - Any data point with a run of 5 items where 4 out of any 5 consecutive points within the process limits are above the 1-sigma line. These will be highlighted as a light orange dot.
+
+  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/74d40460-30b4-4be7-86b1-24da2185c3f9)
+
+- Small shifts - Any data point with a run of at least 8 successive values within the process limits on the same side (above or below) the average
+
+  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/276221a2-d95d-4ec3-9ba9-4dd41da9222a)
+
+- Similarly, in the XmR chart page you can apply the same filters however there will also be a red dot any time the mR chart value exceeds the Upper Range Limit (URL)
+
+  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/2faff639-0b30-4140-a49c-5dc3917cfddf)
+
+
