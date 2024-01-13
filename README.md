@@ -1,7 +1,8 @@
 # Process Behaviour Chart (PBC) for Azure DevOps (ADO)
 
 ## What is this report? 
-This report provides a simple way to analyse the predictability and variation in flow metrics for a team. 
+This report provides a simple way to analyse the predictability and variation in flow metrics for a team, inspired by Dan Vacanti's book, [Actionable Agile Metrics Volume II - Advanced Topics in Predictability](https://leanpub.com/actionableagilemetricsii).
+
 For the flow metrics of Throughput, Cycle Time, Work In Progress (WIP) and Work Item Age, a Process Behaviour Chart (PBC) is visualized.
 
 The PBC shows what type of variation is present in a teams flow. Any time you see a data point outside of the Upper Natural Process Limit (UNPL) or Lower Natural Process Limit (LNPL), these points (shown as a red dot) highlight a signal that represents exceptional variation. The report contains two pages, page one contains the simplified 'X Chart' and page two contains the 'XmR Chart'. There are two date slicers, one for choosing the baseline range (for calculating UNPL/LNPL/URL), the second for what data you what to compare these values against.
