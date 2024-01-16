@@ -62,7 +62,8 @@ Azure DevOps Server:
 Don't confuse the project name with the project key, a common mistake! Your project key will be in the URL when viewing an item.
 
 * It should then look something like this:
-  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/29d67899-e566-4f2e-ae91-9f0f7c667c05)
+  
+![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/29d67899-e566-4f2e-ae91-9f0f7c667c05)
 
 * Hit 'Load' 
 * You will be prompted for a login, choose Basic and enter:
