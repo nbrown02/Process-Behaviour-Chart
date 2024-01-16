@@ -1,4 +1,4 @@
-# Process Behaviour Chart (PBC) for Azure DevOps (ADO)
+# Process Behaviour Chart (PBC) for Azure DevOps (ADO) & Jira (Cloud)
 
 ## What is this report? 
 This report provides a simple way to analyse the predictability and variation in flow metrics for a team, inspired by Dan Vacanti's book, [Actionable Agile Metrics Volume II - Advanced Topics in Predictability](https://leanpub.com/actionableagilemetricsii).
@@ -15,14 +15,19 @@ Use this at potentially every other retrospective to understand where there has 
 
 ### Prerequisites
 * [Make sure you have the latest version of Power BI Desktop](https://aka.ms/pbiSingleInstaller)
-* [Download the template](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/raw/main/Process%20Behaviour%20Chart.pbit)
+* Download the appropriate template file:
+  - [Azure DevOps / Azure DevOps Server / TFS version](https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo/raw/main/Capacity%20Planning%20&%20Feature%20Monte%20Carlo%20(ADO).pbit)
+  - [Jira version](https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo/raw/main/Capacity%20Planning%20&%20Feature%20Monte%20Carlo%20(Jira).pbit) 
+* Create/save an access token 
+  - [Personal Access Token (PAT) if using Azure DevOps (make sure you have 'Read' Analytics access)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
+  - [Jira API token if using Jira](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
 * Then you're good to get started!
 
-### Connectivity
-* Open the .pbit file
+### Connectivity (Azure DevOps Version)
+* Open the .pbit file in Power BI Desktop
 * Select http/https (only choose http if your Azure DevOps Server is HTTP)
 * Add the Analytics / Azure DevOps Server URL - for Azure DevOps services enter 'analytics.dev.azure.com' / for Azure DevOps Server enter your server details
-* Add your organization and project name
+* Add your organization, project name and team name
 
 Don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then Microsoft-UK is the Organization Name, AzureDevOpsTeam is the Project name, Database is the team name.
 
@@ -32,11 +37,9 @@ Azure DevOps Services:
 
 ![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/31a986e1-3ec9-446f-8e6b-1608e7482151)
 
-
 Azure DevOps Server:
 
 ![image](https://github.com/nbrown02/ADO-Process-Behaviour-Chart/assets/29369962/4e47decf-d1e7-4456-9e2b-6a8817308a25)
-
 
 * Hit 'Load' 
 * If you are prompted for a login, you can choose:
@@ -51,6 +54,24 @@ Azure DevOps Server:
 
 ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/4bf72597-c0c3-4a7e-816c-3e27dabee6d5)
 
+### Connectivity (Jira Version)
+* Open the .pbit file in Power BI Desktop
+* Add your Jira URL 
+* Add your Jira Project Key 
+
+Don't confuse the project name with the project key, a common mistake! Your project key will be in the URL when viewing an item.
+
+* It should then look something like this:
+![image](https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo/assets/29369962/2a24cc23-d6d5-4768-9bcf-12e6bf27bc58)
+
+* Hit 'Load' 
+* You will be prompted for a login, choose Basic and enter:
+  - Your email associated with your Jira account for your username
+  - Your API token you created in the Prerequisities
+
+![alt text](https://raw.githubusercontent.com/nbrown02/FlowViz-Jira/main/Screenshots/Login2.png)
+
+* Then hit 'Connect' and wait for the data and charts to load!
 
 ## Using the report
 There are some key things to look for when visually analysing the charts, things to look for are:
