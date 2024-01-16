@@ -16,8 +16,8 @@ Use this at potentially every other retrospective to understand where there has 
 ### Prerequisites
 * [Make sure you have the latest version of Power BI Desktop](https://aka.ms/pbiSingleInstaller)
 * Download the appropriate template file:
-  - [Azure DevOps / Azure DevOps Server / TFS version](https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo/raw/main/Capacity%20Planning%20&%20Feature%20Monte%20Carlo%20(ADO).pbit)
-  - [Jira version](https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo/raw/main/Capacity%20Planning%20&%20Feature%20Monte%20Carlo%20(Jira).pbit) 
+  - [Azure DevOps / Azure DevOps Server / TFS version](https://github.com/nbrown02/Process-Behaviour-Chart/raw/main/Process%20Behaviour%20Chart%20for%20ADO.pbit)
+  - [Jira version](https://github.com/nbrown02/Process-Behaviour-Chart/raw/main/Process%20Behaviour%20Chart%20for%20Jira.pbit) 
 * Create/save an access token 
   - [Personal Access Token (PAT) if using Azure DevOps (make sure you have 'Read' Analytics access)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
   - [Jira API token if using Jira](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
@@ -62,7 +62,7 @@ Azure DevOps Server:
 Don't confuse the project name with the project key, a common mistake! Your project key will be in the URL when viewing an item.
 
 * It should then look something like this:
-![image](https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo/assets/29369962/2a24cc23-d6d5-4768-9bcf-12e6bf27bc58)
+  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/29d67899-e566-4f2e-ae91-9f0f7c667c05)
 
 * Hit 'Load' 
 * You will be prompted for a login, choose Basic and enter:
@@ -72,6 +72,9 @@ Don't confuse the project name with the project key, a common mistake! Your proj
 ![alt text](https://raw.githubusercontent.com/nbrown02/FlowViz-Jira/main/Screenshots/Login2.png)
 
 * Then hit 'Connect' and wait for the data and charts to load!
+  ![PBCGIF](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/3d21d502-b1c2-464a-8ce7-15a3156c8889)
+
+  ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/4bf72597-c0c3-4a7e-816c-3e27dabee6d5)
 
 ## Using the report
 There are some key things to look for when visually analysing the charts, things to look for are:
@@ -95,5 +98,3 @@ There are some key things to look for when visually analysing the charts, things
 - Similarly, in the XmR chart page you can apply the same filters however there will also be a red dot any time the mR chart value exceeds the Upper Range Limit (URL)
 
   ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/2faff639-0b30-4140-a49c-5dc3917cfddf)
-
-
