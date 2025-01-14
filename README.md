@@ -99,3 +99,9 @@ There are some key things to look for when visually analysing the charts, things
 - Similarly, in the XmR chart page you can apply the same filters however there will also be a red dot any time the mR chart value exceeds the Upper Range Limit (URL)
 
   ![image](https://github.com/nbrown02/Process-Behaviour-Chart/assets/29369962/2faff639-0b30-4140-a49c-5dc3917cfddf)
+
+- For the queries in use for the tables, they will bring back the following:
+  - Throughput - everything that isn't a Task, Test Case, Test Plan, Shared Parameter, Shared Steps, Test Suite, Epic, Feature or Impediment
+  - WIP - any work item at Requirement (User Story/PBI) backlog level
+  - Cycle Time - everything that isn't a Task, Test Case, Test Plan, Shared Parameter, Shared Steps, Test Suite, Epic, Feature or Impediment
+  - WIAge - any work item at Requirement (User Story/PBI) backlog level
