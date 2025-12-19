@@ -18,7 +18,7 @@ Use this at potentially every other retrospective to understand where there has 
 * Download the appropriate template file:
   - [Azure DevOps / Azure DevOps Server / TFS version](https://github.com/nbrown02/Process-Behaviour-Chart/raw/main/Process%20Behaviour%20Chart%20for%20ADO.pbit)
   - [Jira version](https://github.com/nbrown02/Process-Behaviour-Chart/raw/main/Process%20Behaviour%20Chart%20for%20Jira.pbit)
-* If you are a Mac user (or a user unable to install Power BI desktop) you can use the web-based template app [for Jira here](https://marketplace.microsoft.com/en-us/product/power-bi/thrivvepartners1747925071876.fmc_jira?tab=Overview) or [for ADO here](https://marketplace.microsoft.com/en-us/product/power-bi/thrivvepartners1747925071876.fmc_ado?tab=Overview)
+* If you are a Mac user (or a user unable to install Power BI desktop) you can use the web-based template app [for Jira here](https://marketplace.microsoft.com/en-us/product/power-bi/thrivvepartners1747925071876.fmc_jira?tab=Overview) or [for ADO here]()
 * Create/save an access token 
   - [Personal Access Token (PAT) if using Azure DevOps (make sure you have 'Read' Analytics access)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
   - [Jira API token if using Jira](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
